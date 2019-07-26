@@ -1,0 +1,34 @@
+{
+  "name": "jwt-app",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcristos/webauth-iii-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamcristos/webauth-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/iamcristos/webauth-iii-challenge#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "connect-session-knex": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "helmet": "^3.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "sqlite3": "^4.0.9"
+  }
+}
